@@ -42,7 +42,7 @@ export function App() {
         <div className="foot-content">
           <div className="footer-bottom">
             <a
-              href="https://github.com/GordonArber"
+              href="https://github.com/GordonArber/gordon-arber-portfolio-v1"
               rel="nofollow"
               target="_blank"
             >
