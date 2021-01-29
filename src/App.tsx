@@ -31,7 +31,11 @@ export function App() {
               url="https://www.linkedin.com/in/gordonarber/"
               Icon={FaLinkedinIn}
             />
-            <RoundButton target="_blank" url="Resume.pdf" Icon={FaRegFilePdf} />
+            <RoundButton
+              target="_blank"
+              url="Gordon_Arber_Resume_1_29_21.pdf"
+              Icon={FaRegFilePdf}
+            />
             <RoundButton
               target="_blank"
               url="mailto:gordon.arber@gmail.com"
