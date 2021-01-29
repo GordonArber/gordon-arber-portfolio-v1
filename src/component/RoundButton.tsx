@@ -9,7 +9,12 @@ interface RoundButtonProps {
 
 export function RoundButton({ Icon, target, url }: RoundButtonProps) {
   return (
-    <a href={url} rel="nofollow" target={target} className="button-wrapper">
+    <a
+      href={url}
+      rel="noopener noreferrer nofollow"
+      target={target}
+      className="button-wrapper"
+    >
       <Icon color="white" size="2em" />
     </a>
   );

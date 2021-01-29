@@ -43,7 +43,7 @@ export function App() {
           <div className="footer-bottom">
             <a
               href="https://github.com/GordonArber/gordon-arber-portfolio-v1"
-              rel="nofollow"
+              rel="noopener noreferrer nofollow"
               target="_blank"
             >
               <div className="copyright">
