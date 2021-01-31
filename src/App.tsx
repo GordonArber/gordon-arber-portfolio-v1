@@ -4,9 +4,12 @@ import {
   FaEnvelope,
   FaGithub,
   FaLinkedinIn,
+  FaReact,
   FaRegFilePdf,
   FaTwitter,
 } from "react-icons/fa";
+import { SiFirebase, SiTypescript } from "react-icons/si";
+import { Card } from "./component/Card";
 
 export function App() {
   return (
@@ -33,7 +36,7 @@ export function App() {
             />
             <RoundButton
               target="_blank"
-              url="Gordon_Arber_Resume_1_29_21.pdf"
+              url="Gordon_Arber_Resume_1_30_21.pdf"
               Icon={FaRegFilePdf}
             />
             <RoundButton
@@ -43,6 +46,28 @@ export function App() {
             />
           </div>
         </div>
+        <div className="projects">
+          <h1>Projects:</h1>
+          <div className="projects__cards">
+            <a
+              href="https://chat-app-a8200.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Card
+                cardName="WhatsApp Clone"
+                thumbnailUrl="./chatapp_ss.jpg"
+                TechIcon1={FaReact}
+                TechIcon2={SiTypescript}
+                TechIcon3={SiFirebase}
+                icon1Color="#57D3F5"
+                icon2Color="#0076C6"
+                icon3Color="#F7C62F"
+              />
+            </a>
+          </div>
+        </div>
+
         <div className="foot-content">
           <div className="footer-bottom">
             <a

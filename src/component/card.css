@@ -1,0 +1,51 @@
+.card {
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  flex-direction: column;
+  background-color: #292929;
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  height: 12%;
+  color: white;
+  font-size: 0.3em;
+}
+
+.card > img {
+  width: 100%;
+  height: 55%;
+}
+.card__header > h1 {
+  padding-top: 6px;
+  font-family: "Comfortaa", cursive;
+  font-size: 4em;
+}
+
+.card > p {
+  font-family: "Comfortaa", cursive;
+  color: white;
+}
+
+.card__technologies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card__technologies > svg {
+  width: 30px;
+  height: 30px;
+}
