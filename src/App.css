@@ -3,20 +3,21 @@ head {
   text-decoration: none;
 }
 
-.page-wrapper {
+.app {
   display: grid;
   place-items: center;
   text-align: center;
+  height: 100vh;
 }
 
-.content-wrapper {
+.app__Wrapper {
   margin: 0;
   text-decoration: none;
   display: block;
   text-align: center;
 }
 
-h1 {
+.app__Wrapper > h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 5em;
   color: white;
@@ -29,47 +30,54 @@ h1 {
   margin: 0;
 }
 
-.se-text {
+.app__Wrapper > p {
   font-family: "Comfortaa", cursive;
   color: rgb(32, 121, 199);
   font-size: 1.5em;
   margin: 15px 0;
 }
 
-.buttons-wrapper {
+.app__buttonsWrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.foot-content {
-  margin-bottom: 0;
-  padding: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-}
-
-.projects {
+.app__projects {
   display: flex;
   flex-direction: column;
 }
 
-.projects > h1 {
+.app__projects > h2 {
+  font-family: "Comfortaa", cursive;
+  color: white;
+  letter-spacing: 0.00735em;
+  margin: 40px 0 16px;
   margin-top: 30px;
-  font-size: 2rem;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.235;
 }
 
-.projects__cards {
+.app__projectsCards {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  flex-flow: wrap;
 }
 
-.footer-bottom {
-  margin-top: 250px;
+.app__footContent {
+  padding: 1px;
+  font-size: 100%;
+  font-family: inherit;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.app__footerBottom {
+  position: relative;
+  /* left: -50%; */
   font-size: 0.7rem;
 }
 a {

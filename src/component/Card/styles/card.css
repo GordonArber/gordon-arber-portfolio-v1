@@ -1,0 +1,75 @@
+.card {
+  display: block;
+  font-family: "Comfortaa", cursive;
+  margin: 20px;
+  background-color: #292929;
+  border-radius: 4px;
+  cursor: pointer;
+  max-width: 345px;
+  overflow: hidden;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 0.3s transform;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card__header {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.card > img {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__header > h1 {
+  font-family: "Comfortaa", cursive;
+  font-size: 0.875rem;
+}
+
+.card__techStackContainer > p {
+  font-family: "Comfortaa", cursive;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.875rem;
+  margin: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.card__Bottom {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+
+.card__technologyItem {
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 12px;
+  overflow: visible;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 0;
+}
+
+.card__git {
+  display: inline-flex;
+  flex: 0 0 auto;
+  overflow: visible;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 0;
+  margin-left: auto;
+}

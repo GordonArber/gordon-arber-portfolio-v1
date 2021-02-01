@@ -1,4 +1,4 @@
-import "./App.css";
+import "./app.css";
 import { RoundButton } from "./component/RoundButton";
 import {
   FaEnvelope,
@@ -14,11 +14,11 @@ import { Card } from "./component/Card";
 export function App() {
   return (
     <>
-      <div className="page-wrapper">
-        <div className="content-wrapper">
+      <div className="app">
+        <div className="app__Wrapper">
           <h1>Hi, I'm Gordon</h1>
-          <p className="se-text">Full Stack Software Engineer</p>
-          <div className="buttons-wrapper">
+          <p>Full Stack Software Engineer</p>
+          <div className="app__buttonsWrapper">
             <RoundButton
               target="_blank"
               url="https://twitter.com/GordonArber"
@@ -46,9 +46,9 @@ export function App() {
             />
           </div>
         </div>
-        <div className="projects">
-          <h1>Projects:</h1>
-          <div className="projects__cards">
+        <div className="app__projects">
+          <h2>Projects</h2>
+          <div className="app__projectsCards">
             <a
               href="https://chat-app-a8200.web.app/"
               target="_blank"
@@ -56,7 +56,7 @@ export function App() {
             >
               <Card
                 cardName="WhatsApp Clone"
-                thumbnailUrl="./chatapp_ss.jpg"
+                thumbnailUrl="./chatapp.png"
                 techIconArray={[
                   { id: "1", Component: FaReact, color: "#57D3F5" },
                   { id: "2", Component: SiTypescript, color: "#0076C6" },
@@ -67,15 +67,16 @@ export function App() {
           </div>
         </div>
 
-        <div className="foot-content">
-          <div className="footer-bottom">
+        <div className="app__footContent">
+          <div className="app__footerBottom">
             <a
               href="https://github.com/GordonArber/gordon-arber-portfolio-v1"
               rel="noopener noreferrer nofollow"
               target="_blank"
             >
               <div className="copyright">
-                &copy; <span className="year">2021</span> Built by Gordon Arber
+                &copy; <span className="year">2021</span> Designed & Built by
+                Gordon Arber
               </div>
             </a>
           </div>
