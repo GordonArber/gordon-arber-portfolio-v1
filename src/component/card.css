@@ -44,8 +44,3 @@
   align-items: center;
   justify-content: space-evenly;
 }
-
-.card__technologies > svg {
-  width: 30px;
-  height: 30px;
-}

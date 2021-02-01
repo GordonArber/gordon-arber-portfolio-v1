@@ -57,12 +57,11 @@ export function App() {
               <Card
                 cardName="WhatsApp Clone"
                 thumbnailUrl="./chatapp_ss.jpg"
-                TechIcon1={FaReact}
-                TechIcon2={SiTypescript}
-                TechIcon3={SiFirebase}
-                icon1Color="#57D3F5"
-                icon2Color="#0076C6"
-                icon3Color="#F7C62F"
+                techIconArray={[
+                  { id: "1", Component: FaReact, color: "#57D3F5" },
+                  { id: "2", Component: SiTypescript, color: "#0076C6" },
+                  { id: "3", Component: SiFirebase, color: "#F7C62F" },
+                ]}
               />
             </a>
           </div>
